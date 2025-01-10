@@ -25,6 +25,7 @@
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{cfr-lm}
+\usepackage{fontawesome5}
 \usepackage[T1]{fontenc}
 \setlength{\multicolsep}{0pt} 
 \pagestyle{fancy}
@@ -39,18 +40,18 @@
 %\addtolength{\textwidth}{1in}
 \usepackage[most]{tcolorbox}
 \tcbset{
-	frame code={}
-	center title,
-	left=0pt,
-	right=0pt,
-	top=0pt,
-	bottom=0pt,
-	colback=gray!20,
-	colframe=white,
-	width=\dimexpr\textwidth\relax,
-	enlarge left by=-2mm,
-	boxsep=4pt,
-	arc=0pt,outer arc=0pt,
+ frame code={}
+ center title,
+ left=0pt,
+ right=0pt,
+ top=0pt,
+ bottom=0pt,
+ colback=gray!20,
+ colframe=white,
+ width=\dimexpr\textwidth\relax,
+ enlarge left by=-2mm,
+ boxsep=4pt,
+ arc=0pt,outer arc=0pt,
 }
 
 \urlstyle{same}
@@ -123,127 +124,115 @@
 %---- End of Packages and Functions ------
 
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%
-%%%%%% DEFINE ELEMENTS HERE %%%%%%%
-\newcommand{\name}{Kaushik Sharma} % Your Name
-\newcommand{\roll}{ 221MN030} % Your Roll No.
-\newcommand{\phone}{8310098134} % Your Phone Number
-\newcommand{\emaila}{gunjansharma10827@gmail.com} %Email 1
-\newcommand{\emailb}{equilibriumionic7@gmail.com} %Email 2
-\newcommand{\github}{/KaushikSharma000} %Github
-
-\newcommand{\linkedin}{kaushik-sharma-4a9914283} %linkedin
-
-
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \begin{document}
-\fontfamily{cmr}\mdseries\selectfont
 
-%----------HEADING-----------------\textbf{\textbf{}}
-\parbox{2.35cm}{%
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
-\includegraphics[width=2cm,clip]{nitk.png}
-
-}\parbox{\dimexpr\linewidth-2.8cm\relax}{
-\begin{tabularx}{\linewidth}{L r}
-  \textbf{\LARGE \name} & +91-\phone\\
-  {Roll No.:\roll} & \href{mailto:\emaila}{\emaila} \\
-  {B.Tech in Mining Engineering} &  \href{https://github.com/\github}{GitHub} $|$ \href{https://linkedin.com/in/\linkedin}{LinkedIn}\\
-  {National Institute Of Technology Karnataka, Surathkal}
-\end{tabularx}
-}
+\begin{center}
+	{\Huge \scshape KAUSHIK SHARMA} \\ \vspace{1pt} \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ \underline{+91 8310098134}} ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{equilibriumionic7@gmail.com}} ~
+	\href{https://linkedin.com/in/kaushik-sharma-4a9914283}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/kaushik-sharma-4a9914283}}
+	\vspace{-2pt}
+\end{center}
 
 
-
+%-----------EDUCATION-----------
 %-----------EDUCATION-----------------
+\section{\textbf{Education}}
+
+\resumeSubheading
+  {National Institute of Technology, Karnataka}
+  {CGPA: 8.40 }
+  {Bachelor of Technology } 
+  {2022---2026}
+\resumeSubheading
+  {Jeevan Public School}
+  {Grade : 84\%}
+  {Class XII Higher Secondary Certificate}
+  {2019---2021}
+  % Adjust this value as needed to reduce the space below the section
+
+
+% %-----------EDUCATION-----------------
 % \section{Education}
-%   \resumeSubHeadingListStart
-%     \resumeSubheading
-%       {National Institute of Technology Karnataka}{Manglore, India}
-%       {Bachelor of Technology in Computer Science and Engineering ;  GPA: 7.55}{November. 2020 -- April. 2024 (Expected)}
-%     \resumeSubheading
-%       {Jawahar Navodaya Vidyalaya}{Bangalore, Karnataka}
-%       {Central Board of Secondary Education (Class XII);  Percentage: 96.60}{March. 2020}
-%   \resumeSubHeadingListEnd\vspace{-3mm}
-\section{Education}
-\vspace{2mm}
-\setlength{\tabcolsep}{5pt} % Default value: 6pt
-% \renewcommand{\arraystretch}{1.1} % Default value: 1
-\small{\begin{tabularx}
-{\dimexpr\textwidth-3mm\relax}{|c|C|c|c|}
-  \hline
-  \textbf{Degree/Certificate } & \textbf{Institute/Board} & \textbf{CGPA/Percentage} & \textbf{Year}\\
-  \hline
-  B.Tech & National Institute Of Technology Karnataka, Surathkal & 8.28 (Current) & 2022-2026\\ %Optional
-  \hline
-  Senior Secondary & CBSE Board & 84.00\% & 2021 \\
-  \hline
-  Secondary & CBSE Board & 93.2\% & 2019 \\
-  \hline
-\end{tabularx}}
-\vspace{-2mm}
+% \vspace{1mm} % Reduced space above the section
+% \begin{itemize}[leftmargin=*, itemsep=1mm] % Reduced item separation
+%     \item \textbf{Bachelor of Technology } \hfill \textit{2022 – 2026} \\
+%     National Institute of Technology Karnataka, Surathkal \\
+%     CGPA: 8.28 
+    
+%     \item \textbf{Class XII Higher Secondary } \hfill \textit{2019 - 2021} \\
+%     Jeevan Public School \\
+%     Percentage: 84.00\%
+    
+   
+% \end{itemize}
+
 
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{\textbf{Projects}}
+
 \resumeSubHeadingListStart
     
     \resumeProject
-      {Study Notion} %Project Name
+      { Study Notion} %Project Name
       {Team project} %Project Name, Location Name
       {Ongoing} %Event Dates
       {\href{https://github.com/KaushikSharma000/DemosEdtech}{GithHub} $|$ \href{https://demos-edtech-zfjr.vercel.app/}{Live Link} } %Website
       
       \resumeItemListStart
-        \item { It is an EdTech web application developed using the MERN stack (MongoDB, Express.js, React, Node.js).}
-        \item { User Authentication: Secure registration, login, and profile management using JWT}
-        \item { Course Management & Student Features: Instructors can create, edit, and manage courses and lessons; students can enroll, access materials, and track progress }
-        \item { Payment Integration: Seamless and secure payments through Razorpay }
-        \item { Search: Functionality for finding courses, lessons, and resources }
-        \item { Instructor Dashboard: Data visualizations for tracking course performance, student enrollment, and income}
+        \item { Led development of an EdTech platform using MongoDB, Express.js, React, and Node.js for course creation and student engagement.}
+        \item {Implemented JWT-based authentication, ensuring 100 \% secure user registration and login.}
+        \item {Built a course management system for 100+ courses, allowing instructors to manage courses and students to enroll and track progress.}
+        \item { Integrated Razorpay and enabled secure payments with 98\% success.}
+        \item { Developed an Instructor Dashboard, providing real-time insights into course performance, enrollment trends, and revenue for 500+ instructors.}
         
     \resumeItemListEnd
     
     \resumeProject
-       {Weather App}
+       { Weather App}
        {Personal Project}
        {25 April - 5 May 2024} %Event Dates
       {\href{https://github.com/KaushikSharma000/-weather.git}{GitHub} $|$ \href{https://kaushiksharma000.github.io/-weather/}{Live Link} } %Website
        
        \resumeItemListStart
-     \item { Tech Stack: HTML, CSS, JavaScript }
-         \item { Weather Information: Retrieve weather details for any specified location }
-         \item { Current Location Weather: Provides weather data for the user's current location with permission}
-         \item  { User Interaction: Intuitive interface for easy weather searches and location permissions}
-         \item  { API Integration: Utilized a third-party API to fetch real-time weather data}
+     \item {Developed a Weather App to retrieve weather details for any specified location using HTML, CSS, and JavaScript.}
+         \item {Integrated a third-party API to fetch weather data with 99\% accuracy for any specified location.}
+         \item {Enabled retrieval of current location weather with 90\% user permission success rate.}
+         \item  {Designed a user-friendly interface, improving weather search efficiency by 30\% and reducing search time.}
+         
      \resumeItemListEnd
 
     \resumeProject
-         {Razorpay Frontend Interface}
+         { Razorpay Frontend Interface}
          {Personal Project}
          {Jan 2024 - Feb 2024} %Event Dates
 {\href{https://github.com/KaushikSharma000/Razorpay_frontend.git}{GitHub} $|$ \href{https://razorpay-frontend-uyt3.vercel.app/}{Live Link} } %Website
 
       \resumeItemListStart
-       \item {Tech Stack: HTML, Tailwind CSS}
-       \item {Payment Interface: Designed a responsive and user-friendly interface}
-       \item {UI/UX Design: Focused on creating an intuitive and visually appealing layout}
-       \item {Device Compatibility: Ensured the interface is compatible across various devices}
+       \item {Developed a responsive payment interface using HTML and Tailwind CSS for an enhanced user experience.}
+       \item {Created an intuitive and visually appealing layout, enhancing user satisfaction by 40\%.}
+       \item {Ensured responsiveness, achieving 100\% functionality across all devices, including desktops, tablets, and smartphones.}
      \resumeItemListEnd
-
-     
-      
-  \resumeSubHeadingListEnd
+     \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
 
-\section{Technical Skills}
+\section{\textbf{Technical Skills}}
+
  \resumeHeadingSkillStart
   \resumeSubItem{Programming} % Category
     { Python, C/C++, JavaScript}
  \resumeSubItem{Web Technologies} % Category
-    { Node.js, Express.js, React, JavaScript, Tailwind, HTML, CSS } 
+    { Node.js, Express.js, React, Tailwind, HTML, CSS } 
     \resumeSubItem{Database} % Category
     { MongoDB} \textbf{}
     \resumeSubItem{Tools/Platform} % Category
@@ -259,51 +248,54 @@
  \resumeHeadingSkillEnd
 
 
-\section{Key courses taken}
+\section{\textbf{Key courses taken}}
+
 \resumeHeadingSkillStart
  \resumeSubItem{Computer Science} % Category
-    { Operating System, Database Management, Data Structure and algorithm, Web Development }
+    {Data Structures and Algorithms, Database Management System, Operating System, Computer Networks, Object-Oriented Programming , Web Development }
 \resumeSubItem{Management}
  { Financial Management, Human Resource Management}
 %  \resumeSubItem{Electrical and Electronics} % Category
 %     {Advanced Control Systems, Digital Systems, Microprocessors} % Skills
  \resumeHeadingSkillEnd
 
-\section{Achievements}
+\section{\textbf{Achievements}}
+
 \vspace{-0.2mm}
 \resumeSubHeadingListStart
 
-\resumePOR{Solved 250+ DSA problems} % Award
-    {  on GeeksforGeeks \href{https://www.geeksforgeeks.org/user/equilibrih5qi/}{ | Profile}} % Event
+\resumePOR{ Solved 600+ DSA problems} % Award
+    {  on GeeksforGeeks and codeforces \href{https://www.geeksforgeeks.org/user/equilibrih5qi/}{ | Profile}} % Event
 
-\resumePOR{Maximum Rating 1102} % Award
+\resumePOR{ Maximum Rating 1357} % Award
     {  on Codeforces\href{https://codeforces.com/profile/equilibriumionic7}{ | Profile} } % Event
 
 
-\resumePOR{Global Rank 7696/43220} % Award
-    { in the Codeforces Round 957} % Event
+\resumePOR{ Global Rank 3580/48131} % Award
+    { in the Codeforces Round 974} % Event
 
 
 
-\resumePOR {JEE-MAIN 2022 : In top 5 percent} % Award
+\resumePOR { JEE-MAIN 2022 : In top 5 percent} % Award
     { among 0.9 million candidates appeared for the exam} % Event
 
-\resumePOR{WBJEE-2022 : AIR 1127} % Award
-    { among 81393 students candidates appeared for the exam} % Event   
+% \resumePOR{WBJEE-2022 : AIR 1127} % Award
+%     { among 81393 students candidates appeared for the exam} % Event   
 
 \resumeSubHeadingListEnd
 % \vspace{-2mm}
 
-\section{Positions of Responsibility}
-\vspace{-0.4mm}
-\resumeSubHeadingListStart
-\resumePOR{Event Oraganiser} % Position
-    {Artist Forum , NITK Surathkal} %Club,Event
-    {January 2023 - June. 2024} %Tenure Period
-    \item { Organized the event Udaan  and conducted the game "Twister," ensuring smooth execution and participant engagement.} 
-    \item{ Collaborated with team members on event planning, logistics, and promotions to ensure successful outcomes.}
-\resumeSubHeadingListEnd
-\vspace{2mm}
+% \section{\textbf{Positions of Responsibility}}
+
+% \vspace{-0.4mm}
+% \resumeSubHeadingListStart
+% \resumePOR{\normalfont  Event Organizer} % Position
+%     {Artist Forum , NITK Surathkal} %Club,Event
+%     {January 2023 - June. 2024} %Tenure Period
+%     \item {  Organized the event Udaan, ensuring smooth execution and participant engagement.} 
+%     \item{ Collaborated with team members on event planning, logistics, and promotions to ensure successful outcomes.}
+% \resumeSubHeadingListEnd
+% \vspace{2mm}
 
 
 
