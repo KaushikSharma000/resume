@@ -1,0 +1,335 @@
+%-------------------------
+% Resume in Latex
+% Author : Jyoti Suman Sahoo
+% License : NITK
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage{fontawesome5}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+ frame code={}
+ center title,
+ left=0pt,
+ right=0pt,
+ top=0pt,
+ bottom=0pt,
+ colback=gray!20,
+ colframe=white,
+ width=\dimexpr\textwidth\relax,
+ enlarge left by=-2mm,
+ boxsep=4pt,
+ arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{:\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1},\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	{\Huge \scshape KAUSHIK SHARMA} \\ \vspace{1pt} \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ \underline{+91 8310098134}} ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kaushiksharma00000@gmail.com}} ~
+	\href{https://linkedin.com/in/kaushik-sharma-4a9914283}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/kaushik-sharma-4a9914283}}
+	\vspace{-2pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+%-----------EDUCATION-----------------
+\section{\textbf{Education}}
+
+\resumeSubheading
+  {National Institute of Technology, Karnataka}
+  {CGPA: 8.40 }
+  {Bachelor of Technology } 
+  {2022---2026}
+\resumeSubheading
+  {Jeevan Public School}
+  {Grade : 84\%}
+  {Class XII Higher Secondary Certificate}
+  {2019---2021}
+  % Adjust this value as needed to reduce the space below the section
+
+
+% %-----------EDUCATION-----------------
+% \section{Education}
+% \vspace{1mm} % Reduced space above the section
+% \begin{itemize}[leftmargin=*, itemsep=1mm] % Reduced item separation
+%     \item \textbf{Bachelor of Technology } \hfill \textit{2022 – 2026} \\
+%     National Institute of Technology Karnataka, Surathkal \\
+%     CGPA: 8.28 
+    
+%     \item \textbf{Class XII Higher Secondary } \hfill \textit{2019 - 2021} \\
+%     Jeevan Public School \\
+%     Percentage: 84.00\%
+    
+   
+% \end{itemize}
+
+
+%-----------EXPERIENCE-----------------
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      { MinRent}{}
+      {Software Development Intern}{Aug 2024 - Dec 2024}
+      \resumeItemListStart
+            \item {Collaborated with a faculty-led research team to predict vehicle maintenance requirements using real-world multi-sensor telemetry data collected from industrial machinery.}
+            \item {Targeted failure prediction and Remaining Useful Life (RUL) estimation by analyzing 20+ parameters, including Vibration (X/Y/Z), RMS & Peak Vibration, Bearing and Motor Temperatures, Acoustic Emission, Shaft Speed, Load Torque, Tool Wear, Dust Concentration, and Energy Efficiency Index.}
+            \item {Performed exploratory data analysis using \textbf{matplotlib} and \textbf{seaborn} to identify patterns in sensor trends, derive correlations, and visualize operational health indicators.}
+            \item {Preprocessed data and engineered meaningful features using \textbf{pandas}, handling missing values, scaling, and encoding techniques for model-readiness.}
+            \item {Trained classification models (Logistic Regression, Random Forest, XGBoost, and SVM) using \textbf{scikit-learn} to classify maintenance needs and estimate failure probability.}
+            \item {Optimized model performance through hyperparameter tuning and k-fold cross-validation, achieving a high-performing model with \textbf{89\% accuracy} and \textbf{0.87 F1-score}.}
+            \item {Extracted actionable insights highlighting key predictors such as energy inefficiency, external vibration exposure, and rising tool wear, contributing to cost-effective predictive maintenance strategies.}
+    \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+
+
+
+
+%-----------PROJECTS-----------------
+\section{\textbf{Projects}}
+
+\resumeSubHeadingListStart
+    
+  %   \resumeProject
+  %     { Big Mart Sales Prediction} %Project Name
+  %     {Personal Project} %Project Name, Location Name
+  %     {Ongoing} %Event Dates
+  %     {\href{https://github.com/KaushikSharma000/Big-mart-sales-prediction-analysis}{GitHub} }
+      
+  %    \resumeItemListStart
+  %   \item { Developed a predictive model using pandas, matplotlib, seaborn, and scikit-learn to forecast product sales across 10 stores.}
+  %   \item {Implemented multiple regression algorithms including Linear Regression, Ridge, Lasso, Decision Tree, Random Forest, and Extra Trees to achieve optimal performance.}
+  %   \item {Achieved a Mean Squared Error of 0.28 in log values, ensuring accurate sales prediction by applying exponentiation to derive original sales figures.}
+  %   \item {Conducted data cleaning, feature engineering, and exploratory data analysis to identify key product and store attributes influencing sales.}
+  %   \item {Built visualizations to provide insights into product visibility, outlet size, and location type, assisting stakeholders in making data-driven decisions.}
+  % \resumeItemListEnd-
+
+  \resumeProject
+      {Vehicle Maintenance Prediction Model} % Project Name
+      {Personal Project} % Project Name, Location Name
+     
+    
+     \resumeItemListStart
+    \item {Developed a machine learning model to predict the likelihood of vehicle maintenance requirements based on usage patterns and sensor data.}
+    \item {Utilized libraries such as pandas, matplotlib, seaborn, and scikit-learn to perform data preprocessing, feature engineering, and modeling.}
+    \item {Applied classification algorithms including Logistic Regression, Random Forest, XGBoost, and Support Vector Machine to identify maintenance needs.}
+    \item {Achieved an accuracy of 89\% and F1-score of 0.87, optimizing model performance through hyperparameter tuning and cross-validation.}
+    \item {Performed exploratory data analysis and visualized key indicators such as mileage, engine temperature, and oil quality to derive actionable insights.}
+    
+    \resumeItemListEnd
+
+   \resumeProject
+  {Inventory and Sales Performance Optimization}
+  {Personal Project}
+  {10 June – 20 June 2024} % Update dates as needed
+  {\href{https://github.com/YourGitHubRepo/Inventory-Sales-Analysis}{GitHub}}
+
+  \resumeItemListStart
+    \item {Analyzed retail sales and inventory data to identify underperforming brands, high-margin low-volume products, and vendor dependencies using Python.}
+    \item {Filtered data to exclude transactions with zero sales, negative profit margins, or gross losses to ensure meaningful insights.}
+    \item {Performed correlation analysis and statistical hypothesis testing to validate performance differences between top and low-performing vendors.}
+    \item {Identified $2.71M in unsold inventory and showed that bulk purchasing reduces unit costs by 72\%, aiding in cost optimization.}
+    \item {Recommended promotional strategies for 198 high-margin low-sales brands and vendor diversification to mitigate supply chain risks.}
+    \item {Delivered actionable insights to improve pricing, stock turnover, and operational efficiency in wholesale and retail environments.}
+  \resumeItemListEnd
+
+
+    \resumeProject
+         { Black Friday Sales Prediction}
+         {Personal Project}
+         {Jan 2024 - Feb 2024} %Event Dates
+{\href{https://github.com/KaushikSharma000/Black-Friday-Sales}{GitHub}  } 
+
+      \resumeItemListStart
+    \item { Developed a regression model using pandas, matplotlib, seaborn, and scikit-learn to predict purchase amounts in retail transactions.}
+    \item {Implemented multiple algorithms including Linear Regression, Decision Tree, Random Forest, and Extra Trees to enhance prediction accuracy.}
+    \item {Performed extensive data cleaning, feature engineering, and visualization to identify key purchasing patterns.}
+    \item {Planned future work involving hyperparameter tuning, testing additional models, creating new attributes, and applying normalization techniques to improve model performance.}
+  \resumeItemListEnd
+\vspace{-1.0mm}
+
+\section{\textbf{Technical Skills}}
+
+ \resumeHeadingSkillStart
+  \resumeSubItem{Programming} % Category
+    { Python, C/C++, JavaScript}
+  \resumeSubItem{Data Science Libraries} % Category
+    { NumPy, pandas, matplotlib, seaborn, scikit-learn, TensorFlow, PyTorch } 
+  \resumeSubItem{Database} % Category
+    { MongoDB} 
+  \resumeSubItem{Tools/Platform} % Category
+    { Jupyter Notebook, Google Colab, Postman} 
+
+ \resumeHeadingSkillEnd
+
+\section{\textbf{Key courses taken}}
+
+\resumeSubItem{ Core Courses} % Category
+    { Statistics for Data Science, Machine Learning, Data Visualization, Data Wrangling, Python for Data Science, Deep Learning}
+
+
+% \section{\textbf{Key courses taken}}
+
+% \resumeHeadingSkillStart
+%  \resumeSubItem{Computer Science} % Category
+%     {Data Structures and Algorithms, Database Management System, Operating System, Computer Networks, Object-Oriented Programming , Web Development }
+% \resumeSubItem{Management}
+%  { Financial Management, Human Resource Management}
+% %  \resumeSubItem{Electrical and Electronics} % Category
+% %     {Advanced Control Systems, Digital Systems, Microprocessors} % Skills
+%  \resumeHeadingSkillEnd
+
+\section{\textbf{Achievements}}
+
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+
+\resumePOR{ Solved 600+ DSA problems} % Award
+    {  on GeeksforGeeks and codeforces \href{https://www.geeksforgeeks.org/user/equilibrih5qi/}{ | Profile}} % Event
+
+\resumePOR{ Maximum Rating 1357} % Award
+    {  on Codeforces\href{https://codeforces.com/profile/equilibriumionic7}{ | Profile} } % Event
+
+
+\resumePOR{ Global Rank 3580/48131} % Award
+    { in the Codeforces Round 974} % Event
+
+
+
+\resumePOR { JEE-MAIN 2022 : In top 5 percent} % Award
+    { among 0.9 million candidates appeared for the exam} % Event
+
+% \resumePOR{WBJEE-2022 : AIR 1127} % Award
+%     { among 81393 students candidates appeared for the exam} % Event   
+
+\resumeSubHeadingListEnd
+\vspace{-2mm}
+
+
+
+
+
+\hspace*{-5mm}\rule{1.035\textwidth}{0.1mm}
+
+
+
+
+%-------------------------------------------
+\end{document}
